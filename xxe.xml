@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE cdl [<!ENTITY asd SYSTEM "https://google.com">]>
-<cdl>&asd;</cdl>
