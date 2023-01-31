@@ -1,8 +1,8 @@
 {
-    "url": "https://ghost9.github.io/my/html_card.yaml",
+    "url": "https://raw.githubusercontent.com/ghost9/my/master/html_card.yaml",
     "urls": [
         {
-            "url": "https://ghost9.github.io/my/html_card.yaml",
+            "url": "https://raw.githubusercontent.com/ghost9/my/master/html_card.yaml",
             "name": "Foo"
         }
     ]
