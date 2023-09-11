@@ -16,12 +16,27 @@ async function connect() {
 }
 </script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
-  
-<iframe src="https://yearn.fi" onload="connect()">  ...
+  <script>
+        change_iframe_content = () => {
+            
+            // contentWindow Property - Returns Window Object
+            const if_doc = document.getElementById("frame").contentWindow;
+          
+            // Accessing document -> p -> Changing InnerHTML
+            if_doc.document.getElementsByTagName('p')[0].innerHTML =
+            "Write & Earn";  
+        }
+    </script>
+   <button onclick="change_iframe_content()">
+        Change Iframe_Content
+    </button>
+<iframe src="https://yearn.fi" onload="connect()" height=50% width=50%>  ...
    ...
    <input type="button" value="Connect Wallet" onclick="connect();">
    ...
    ...
+
+  
 
 </body>
 </html>
