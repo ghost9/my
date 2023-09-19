@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/ghost9/my/master/swagger.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/ghost9/my/master/swagger.yaml",
+            "name": "Foo"
+        }
+    ]
+}
