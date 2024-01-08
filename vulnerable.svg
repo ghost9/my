@@ -7,13 +7,6 @@
     alert("XSS ");
   
       
-    
-  
-}
-
-for(let i=0; i&lt;1000; i++) {
-    checkPort(i);
-        }
 
 </script>
 </svg>
